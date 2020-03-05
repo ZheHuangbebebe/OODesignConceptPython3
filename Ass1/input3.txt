@@ -1,0 +1,13 @@
+Hotel First 101 1
+Hotel First 102 2
+Hotel First 202 2
+Hotel Second 101 1
+Hotel Second 102 2
+Booking A Jan 1 10 single 1
+Booking B Feb 1 10 double 1
+Cancel B
+Change A Feb 1 10 double 1
+Booking C Jan 1 10 single 1 double 1
+
+Print First
+Print Second

@@ -1,0 +1,19 @@
+Hotel First 101 1
+Hotel First 102 2
+Hotel First 202 2
+Hotel Second 101 1
+Hotel Second 102 2
+
+Booking Evan Jan 31 2 single 1
+Booking Jack Feb 1 2 single 1
+Booking jack Jan 31 2 double 2 single 1
+// Booking rejected cause no single room even two double room can be booked
+Booking Adam Feb 30 2 single 1
+// Booking rejected cause no 30th in Feb
+Change Evan Feb 30 2 single 1
+// Change rejected cause no 30th in Feb
+Change Evan Jan 1 100 single 2
+// Change rejected cause there no two free room
+Change Evan Jan 20 2 double 2
+
+Print First

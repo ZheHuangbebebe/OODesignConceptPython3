@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block body %}
+<h1>All Bookings</h1>
+{% for car in booking_cars %}
+<ul>
+<li>{{car._car.get_name()}} {{car._car.get_model()}}</li>
+</ul>
+<li><tr>Period: </tr>{{car._period}}</li>
+<li>{{car._location}}</li>
+{% endfor %}
+{% endblock %}
